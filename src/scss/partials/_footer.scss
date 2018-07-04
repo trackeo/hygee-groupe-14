@@ -1,0 +1,47 @@
+.footer {
+  .urgence {
+    background-color: $pink;
+    height: 50px;
+    .title {
+      display: block;
+      color: $white;
+      font-size: 20px;
+      line-height: 50px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+
+  .footer-content {
+    background-color: $blue;
+    color: $white;
+    text-align: right;
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+    .container{
+      display: block;
+      width: 950px;
+      margin: 0 auto;
+
+      .socials {
+        text-align: right;
+        .social {
+          display: inline-flex;
+          width: 35px;
+          height: 35px;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          img {
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+}

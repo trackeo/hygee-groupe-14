@@ -1,0 +1,58 @@
+.header {
+  width: 100vw;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+  z-index: 50;
+  background-color: $white;
+
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    .logo-link {
+      position: relative;
+      padding-right: 20px;
+      color: $green;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+
+      &::after {
+        content: '';
+        background: url('../../assets/img/logo.png') center center no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 17px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  nav {
+    display: inline-block;
+    vertical-align: top;
+    ul{
+      display: inline-block;
+      li{
+        display: inline-block;
+        margin-right: 50px;
+        &:first-of-type {
+          margin-left: 50px;
+        }
+        &:last-of-type {
+          margin-right: 0;
+        }
+        a {
+          color: $dark;
+          text-decoration: none;
+          font-family: $montserrat-light;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,310 @@
+.main {
+  section {
+    width: 100vw;
+    padding: 70px 0;
+    position: relative;
+
+    .container {
+      max-width: 950px;
+      margin: 0 auto;
+      position: relative;
+
+      .button-container {
+        display: block;
+        .button {
+          display: inline-block;
+          height: 50px;
+          background: $green;
+          padding: 0 10px;
+          text-decoration: none;
+
+          .label {
+            color: $white;
+            text-transform: uppercase;
+            line-height: 50px;
+            font-size: 17px;
+
+          }
+        }
+      }
+    }
+
+    &#home {
+      margin-top: 60px;
+
+      .home__block {
+        font-size: 0;
+        .block-text {
+          display: inline-block;
+          width: 80%;
+          vertical-align: middle;
+          .title {
+            font-family: $avenir-next-bold;
+            color: $green;
+            font-size: 40px;
+            line-height: 58px;
+            max-width: 480px;
+            .blue {
+              color: $blue;
+            }
+            .img-referent {
+              position: relative;
+
+              &::after {
+                content: '';
+                background: url('../../assets/img/decoration-1.png') center center no-repeat;
+                background-size: contain;
+                width: 61px;
+                height: 70px;
+                position: absolute;
+                right: -60px;
+                top: -15px;
+              }
+
+            }
+          }
+          .subtitle {
+            font-family: $montserrat-light;
+            color: $dark;
+            font-size: 17px;
+            margin: 20px 0 ;
+          }
+        }
+        .img {
+          display: inline-block;
+          width: 20%;
+          vertical-align: middle;
+
+        }
+      }
+
+    }
+
+    &#product {
+      .container {
+        font-size: 0;
+        .content-left {
+          display: inline-block;
+          width: 50%;
+          vertical-align: top;
+          padding-top: 120px;
+
+          .img-container {
+            display: block;
+            width:100px;
+            height: 100%;
+            background: $green;
+          }
+
+        }
+        .content-right {
+          display: inline-block;
+          width: 50%;
+          vertical-align: top;
+
+          .title{
+            color: $blue;
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 60px;
+            margin-bottom: 50px;
+          }
+
+          .infos {
+
+            .info {
+              min-height: 100px;
+              padding: 0 20px;
+              .info-title {
+                font-size: 24px;
+                color: $dark;
+
+              }
+              .description {
+                font-size: 17px;
+                color: $dark;
+              }
+
+              &:nth-child(1){
+                border-left: 4px solid $green;
+              }
+              &:nth-child(2){
+                margin: 40px 0;
+                border-left: 4px solid $blue;
+              }
+              &:nth-child(3){
+                border-left: 4px solid $pink;
+              }
+            }
+          }
+
+        }
+      }
+    }
+
+    &#value {
+      .container {
+        .title{
+          color: $blue;
+          font-size: 38px;
+          font-weight: 900;
+          line-height: 60px;
+        }
+        .info-list {
+          margin-top: 30px;
+
+          .info-item {
+            position: relative;
+            top: -1px;
+            .item-header {
+              position: relative;
+              height: 70px;
+              border: 1px solid rgba(151, 151, 151, 0.3);
+              line-height: 70px;
+              padding: 0 20px;
+              transition: all 350ms ease-in-out;
+
+              .item-title {
+                color: $dark;
+                font-size: 24px;
+                font-weight: 800;
+              }
+
+              &::before {
+                content: '';
+                width: 20px;
+                height: 5px;
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                background: $green;
+              }
+              &::after {
+                content: '';
+                width: 20px;
+                height: 5px;
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                background: $green;
+                transition: all 350ms ease-in-out;
+
+              }
+            }
+            .item-content {
+
+              height: 0;
+              overflow: hidden;
+              transition: all 350ms ease-in-out;
+              border-left: 1px solid rgba(151, 151, 151, 0.3);
+              border-right: 1px solid rgba(151, 151, 151, 0.3);
+
+              .description {
+
+                padding: 20px;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 28px;
+                color: $dark;
+              }
+            }
+
+            &.active {
+              .item-header {
+                box-shadow: 0px 3px 7px rgba(0,0,0,.2);
+                &:after {
+                  transform: rotate(90deg);
+                }
+              }
+              .item-content {
+                height: 150px;
+                &:last-child {
+                  border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+                }
+
+              }
+            }
+
+            &:first-child {
+              position: relative;
+              top: 0;
+            }
+            &:nth-child(3) {
+              position: relative;
+              top: -2px;
+            }
+          }
+        }
+      }
+    }
+
+    &#testimony {
+    }
+
+    &#doctors {
+      .container {
+
+        .block-text {
+
+          .title{
+            color: $blue;
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 60px;
+            margin-bottom: 30px;
+          }
+          .block-container {
+            font-size: 0;
+            display: flex;
+            .description {
+              display: inline-block;
+              font-size: 17px;
+              color: $dark;
+
+              .bold {
+                font-weight: bold;
+              }
+            }
+            .img {
+              display: inline-block;
+              width: 366px;
+              height: 262px;
+            }
+          }
+        }
+      }
+    }
+
+    &#download {
+      background: $green;
+      padding: 120px 0;
+      .title{
+        color: $white;
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 60px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .download-container {
+        text-align: center;
+        margin-top: 40px;
+
+        a {
+          text-decoration: none;
+        }
+
+        .apple {
+          width: 165px;
+          height: 57px;
+          margin-right: 40px;
+        }
+        .google {
+          width: 195px;
+          height: 59px;
+        }
+      }
+    }
+  }
+}
