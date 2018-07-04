@@ -24,6 +24,35 @@
       display: block;
       width: 950px;
       margin: 0 auto;
+      position: relative;
+
+      .logo {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+        .logo-link {
+          position: relative;
+          padding-right: 20px;
+          color: $white;
+          display: inline-block;
+          text-decoration: none;
+          font-weight: bold;
+
+          &::after {
+            content: '';
+            background: url('../../assets/img/logo-white.png') center center no-repeat;
+            background-size: contain;
+            width: 18px;
+            height: 17px;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
 
       .socials {
         text-align: right;

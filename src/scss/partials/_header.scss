@@ -45,6 +45,12 @@
         }
         &:last-of-type {
           margin-right: 0;
+          a {
+            color: $blue;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: $montserrat-light;
+          }
         }
         a {
           color: $dark;
