@@ -70,11 +70,7 @@
             margin: 20px 0 ;
           }
         }
-        .img {
-          position: absolute;
-          display: inline-block;
-          width: 15vw;
-          vertical-align: middle;
+        .home-phone {
           display: none;
         }
       }
@@ -471,7 +467,25 @@
           height: 59px;
         }
       }
+      .happy {
+        position: absolute;
+        bottom: -5vh;
+        width: 15vw;
+        left: 40px;
+      }
+      .main-blanche {
+        position: absolute;
+        right: 0px;
+        top: 150px;
+        width: 20vw;
+      }
     }
+  }
+}
+
+@media only screen and (max-width:1360px) {
+  .couple, .video-conf, .fauteuil {
+    display: none;
   }
 }
 
@@ -541,15 +555,19 @@
               }
             }
           }
-          .img {
-            display: inline-block;
-            width: 50%;
-            vertical-align: middle;
-            margin: 15px auto;
-
+          .home-phone {
+            display: block;
+            margin: auto;
+            width: 60vw;
+            margin-top: 20px;
           }
         }
-
+        .couple {
+          display: none;
+        }
+        .phone-main {
+            display: none;
+        }
       }
 
       &#product {
@@ -578,9 +596,16 @@
             padding: 75px 8% 0;
 
             .title {
+              position: relative;
               font-size: 38px;
               line-height: 60px;
               margin-bottom: 50px;
+            }
+            .ear {
+              position: absolute;
+              top: -50px;
+              left: 0px;
+              width: 60px;
             }
 
             .infos {
@@ -597,14 +622,24 @@
             }
           }
         }
+        .video-conf {
+          display: none;
+        }
       }
 
       &#value {
+        margin-top: 40px;
         .container {
           .title {
             padding-top: 40px;
             font-size: 38px;
             line-height: 60px;
+          }
+          .mal-tete {
+            position: absolute;
+            top: -25px;
+            left: 60px;
+            width: 60px;
           }
           .info-list {
             margin-top: 30px;
@@ -670,14 +705,32 @@
       }
 
       &#testimony {
+        margin-top: 60px;
         .container {
           .title {
             text-align: left;
+            .stethoscope {
+              position: absolute;
+              top: -60px;
+              left: 40px;
+              width: 60px;
+            }
           }
+        }
+        .frise {
+          margin-top: 20px;
+          display: block;
+          margin: auto;
+          width: 60vw;
+          margin-top: 70px;
+        }
+        .fauteuil {
+          display: none;
         }
       }
 
       &#doctors {
+        margin-top: 80px;
         .container {
 
           .block-text {
@@ -686,6 +739,12 @@
               font-size: 38px;
               line-height: 60px;
               margin-bottom: 30px;
+            }
+            .caduce {
+              position: absolute;
+              top: -60px;
+              left: 40px;
+              width: 60px;
             }
             .block-container {
               font-size: 0;
@@ -712,6 +771,7 @@
           font-size: 38px;
           line-height: 60px;
           margin: 0 auto;
+          margin-top: 15vh;
           text-align: center;
         }
 
@@ -739,16 +799,21 @@
           }
         }
         .happy {
-          position: absolute;
-          width: 15vw;
-          bottom: -50px;
-          left: 50px;
+          position: relative;
+          display: block;
+          margin: auto;
+          bottom: -10vh;
+          width: 30vw;
+          left: 0;
         }
         .main-blanche {
           position: absolute;
-          width: 20vw;
-          right: 0px;
-          bottom: 100px;
+          display: block;
+          margin: auto;
+          top: 50px;
+          right: 25vw;
+          width: 30vw;
+          transform: rotate(-45deg);
         }
       }
     }

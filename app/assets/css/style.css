@@ -620,11 +620,7 @@ textarea {
           color: #444444;
           font-size: 17px;
           margin: 20px 0; }
-      .main section#home .home__block .img {
-        position: absolute;
-        display: inline-block;
-        width: 15vw;
-        vertical-align: middle;
+      .main section#home .home__block .home-phone {
         display: none; }
     .main section#home .couple {
       position: absolute;
@@ -914,6 +910,20 @@ textarea {
       .main section#download .download-container .google {
         width: 195px;
         height: 59px; }
+    .main section#download .happy {
+      position: absolute;
+      bottom: -5vh;
+      width: 15vw;
+      left: 40px; }
+    .main section#download .main-blanche {
+      position: absolute;
+      right: 0px;
+      top: 150px;
+      width: 20vw; }
+
+@media only screen and (max-width: 1360px) {
+  .couple, .video-conf, .fauteuil {
+    display: none; } }
 
 @media only screen and (max-width: 1023px) {
   .main section {
@@ -961,11 +971,15 @@ textarea {
           .main section#home .home__block .block-text .button-container .button {
             width: 100%;
             text-align: center; }
-        .main section#home .home__block .img {
-          display: inline-block;
-          width: 50%;
-          vertical-align: middle;
-          margin: 15px auto; }
+        .main section#home .home__block .home-phone {
+          display: block;
+          margin: auto;
+          width: 60vw;
+          margin-top: 20px; }
+      .main section#home .couple {
+        display: none; }
+      .main section#home .phone-main {
+        display: none; }
     .main section#product .container {
       padding: 0;
       font-size: 0;
@@ -988,74 +1002,111 @@ textarea {
         vertical-align: top;
         padding: 75px 8% 0; }
         .main section#product .container .content-right .title {
+          position: relative;
           font-size: 38px;
           line-height: 60px;
           margin-bottom: 50px; }
+        .main section#product .container .content-right .ear {
+          position: absolute;
+          top: -50px;
+          left: 0px;
+          width: 60px; }
         .main section#product .container .content-right .infos .info {
           padding: 0 20px; }
           .main section#product .container .content-right .infos .info .info-title {
             font-size: 24px; }
           .main section#product .container .content-right .infos .info .description {
             font-size: 17px; }
-    .main section#value .container .title {
-      padding-top: 40px;
-      font-size: 38px;
-      line-height: 60px; }
-    .main section#value .container .info-list {
-      margin-top: 30px; }
-      .main section#value .container .info-list .info-item .item-header {
-        position: relative;
-        height: auto;
-        line-height: 70px;
-        padding: 0 50px 0 20px;
-        transition: all 350ms ease-in-out; }
-        .main section#value .container .info-list .info-item .item-header .item-title {
-          font-size: 24px;
-          line-height: 35px;
-          padding: 20px 0; }
-        .main section#value .container .info-list .info-item .item-header::after, .main section#value .container .info-list .info-item .item-header::before {
-          bottom: 30px;
-          top: inherit; }
-      .main section#value .container .info-list .info-item .item-content .description {
-        padding: 20px;
-        font-size: 17px;
-        font-weight: 400;
-        line-height: 28px;
-        color: #444444; }
-      .main section#value .container .info-list .info-item.active .item-header {
-        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2); }
-        .main section#value .container .info-list .info-item.active .item-header:after {
-          -ms-transform: rotate(90deg);
-              transform: rotate(90deg); }
-      .main section#value .container .info-list .info-item.active .item-content {
-        height: 220px; }
-        .main section#value .container .info-list .info-item.active .item-content:last-child {
-          border-bottom: 1px solid rgba(151, 151, 151, 0.3); }
-      .main section#value .container .info-list .info-item:first-child {
-        position: relative;
-        top: 0; }
-      .main section#value .container .info-list .info-item:nth-child(3) {
-        position: relative;
-        top: -2px; }
-    .main section#testimony .container .title {
-      text-align: left; }
-    .main section#doctors .container .block-text .title {
-      font-size: 38px;
-      line-height: 60px;
-      margin-bottom: 30px; }
-    .main section#doctors .container .block-text .block-container {
-      font-size: 0;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-      .main section#doctors .container .block-text .block-container .description {
-        display: inline-block;
-        font-size: 17px; }
-      .main section#doctors .container .block-text .block-container .img {
+    .main section#product .video-conf {
+      display: none; }
+    .main section#value {
+      margin-top: 40px; }
+      .main section#value .container .title {
+        padding-top: 40px;
+        font-size: 38px;
+        line-height: 60px; }
+      .main section#value .container .mal-tete {
+        position: absolute;
+        top: -25px;
+        left: 60px;
+        width: 60px; }
+      .main section#value .container .info-list {
+        margin-top: 30px; }
+        .main section#value .container .info-list .info-item .item-header {
+          position: relative;
+          height: auto;
+          line-height: 70px;
+          padding: 0 50px 0 20px;
+          transition: all 350ms ease-in-out; }
+          .main section#value .container .info-list .info-item .item-header .item-title {
+            font-size: 24px;
+            line-height: 35px;
+            padding: 20px 0; }
+          .main section#value .container .info-list .info-item .item-header::after, .main section#value .container .info-list .info-item .item-header::before {
+            bottom: 30px;
+            top: inherit; }
+        .main section#value .container .info-list .info-item .item-content .description {
+          padding: 20px;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 28px;
+          color: #444444; }
+        .main section#value .container .info-list .info-item.active .item-header {
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2); }
+          .main section#value .container .info-list .info-item.active .item-header:after {
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg); }
+        .main section#value .container .info-list .info-item.active .item-content {
+          height: 220px; }
+          .main section#value .container .info-list .info-item.active .item-content:last-child {
+            border-bottom: 1px solid rgba(151, 151, 151, 0.3); }
+        .main section#value .container .info-list .info-item:first-child {
+          position: relative;
+          top: 0; }
+        .main section#value .container .info-list .info-item:nth-child(3) {
+          position: relative;
+          top: -2px; }
+    .main section#testimony {
+      margin-top: 60px; }
+      .main section#testimony .container .title {
+        text-align: left; }
+        .main section#testimony .container .title .stethoscope {
+          position: absolute;
+          top: -60px;
+          left: 40px;
+          width: 60px; }
+      .main section#testimony .frise {
+        margin-top: 20px;
         display: block;
-        width: 300px;
-        margin: 0 auto; }
+        margin: auto;
+        width: 60vw;
+        margin-top: 70px; }
+      .main section#testimony .fauteuil {
+        display: none; }
+    .main section#doctors {
+      margin-top: 80px; }
+      .main section#doctors .container .block-text .title {
+        font-size: 38px;
+        line-height: 60px;
+        margin-bottom: 30px; }
+      .main section#doctors .container .block-text .caduce {
+        position: absolute;
+        top: -60px;
+        left: 40px;
+        width: 60px; }
+      .main section#doctors .container .block-text .block-container {
+        font-size: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+        .main section#doctors .container .block-text .block-container .description {
+          display: inline-block;
+          font-size: 17px; }
+        .main section#doctors .container .block-text .block-container .img {
+          display: block;
+          width: 300px;
+          margin: 0 auto; }
     .main section#download {
       background: #67DBC1;
       padding: 60px 0; }
@@ -1063,6 +1114,7 @@ textarea {
         font-size: 38px;
         line-height: 60px;
         margin: 0 auto;
+        margin-top: 15vh;
         text-align: center; }
       .main section#download .download-container {
         text-align: center;
@@ -1085,15 +1137,21 @@ textarea {
           width: 195px;
           height: 59px; }
       .main section#download .happy {
-        position: absolute;
-        width: 15vw;
-        bottom: -50px;
-        left: 50px; }
+        position: relative;
+        display: block;
+        margin: auto;
+        bottom: -10vh;
+        width: 30vw;
+        left: 0; }
       .main section#download .main-blanche {
         position: absolute;
-        width: 20vw;
-        right: 0px;
-        bottom: 100px; } }
+        display: block;
+        margin: auto;
+        top: 50px;
+        right: 25vw;
+        width: 30vw;
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); } }
 
 .footer .urgence {
   background-color: #FFB2E7;
