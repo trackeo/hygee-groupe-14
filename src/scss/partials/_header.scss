@@ -92,22 +92,53 @@
         display: inline-block;
         text-decoration: none;
         font-weight: bold;
+        font-size: 20px;
       }
     }
     .burger {
       position: absolute;
       display: block;
-      vertical-align: top;
       right: 0px;
+      top: 20px;
       padding: 0 8%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      span {
+        width: 20px;
+        height: 2px;
+        margin: 2px;
+        background-color: #531afa;
+      }
+      .little {
+        width: 15px;
+      }
     }
   }
   .header-mobile &.on {
-    .logo-mobile {
-      color: white;
-    }
     .burger {
+      span {
+        background-color: white;
+        z-index: 60;
+      }
+    }
+  }
+  .logo-mobile-open {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 8%;
+    .logo-link-mobile {
+      position: relative;
+      padding-right: 20px;
       color: white;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
     }
   }
   .nav-mobile {

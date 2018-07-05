@@ -591,17 +591,46 @@ textarea {
         color: #67DBC1;
         display: inline-block;
         text-decoration: none;
-        font-weight: bold; }
+        font-weight: bold;
+        font-size: 20px; }
     .header-mobile .burger {
       position: absolute;
       display: block;
-      vertical-align: top;
       right: 0px;
-      padding: 0 8%; }
-  .header-mobile .on .logo-mobile {
-    color: white; }
-  .header-mobile .on .burger {
-    color: white; }
+      top: 20px;
+      padding: 0 8%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center; }
+      .header-mobile .burger span {
+        width: 20px;
+        height: 2px;
+        margin: 2px;
+        background-color: #531afa; }
+      .header-mobile .burger .little {
+        width: 15px; }
+  .header-mobile .on .burger span {
+    background-color: white;
+    z-index: 60; }
+  .logo-mobile-open {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 8%; }
+    .logo-mobile-open .logo-link-mobile {
+      position: relative;
+      padding-right: 20px;
+      color: white;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px; }
   .nav-mobile {
     position: relative;
     left: 100%;
