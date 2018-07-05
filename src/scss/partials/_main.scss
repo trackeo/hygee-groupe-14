@@ -148,6 +148,16 @@
             }
           }
 
+          .description {
+            margin-top: 20px;
+            color: $dark;
+            font-size: 14px;
+            .cnil-btn {
+              color: $green;
+              text-decoration: underline;
+            }
+          }
+
         }
       }
       .video-conf {
@@ -253,6 +263,7 @@
               top: -2px;
             }
           }
+
         }
       }
     }
@@ -618,7 +629,7 @@
           .mal-tete {
             position: absolute;
             top: -25px;
-            left: 60px;
+            left: 8%;
             width: 60px;
           }
           .info-list {
@@ -692,7 +703,7 @@
             .stethoscope {
               position: absolute;
               top: -60px;
-              left: 40px;
+              left: 8%;
               width: 60px;
             }
           }
@@ -723,7 +734,7 @@
             .caduce {
               position: absolute;
               top: -60px;
-              left: 40px;
+              left: 8%;
               width: 60px;
             }
             .block-container {
@@ -791,6 +802,7 @@
           transform: rotate(-45deg);
         }
       }
+
     }
   }
 }
