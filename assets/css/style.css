@@ -542,27 +542,78 @@ textarea {
         top: 50%;
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
-  .header nav {
+  .header .nav {
     display: inline-block;
     vertical-align: top; }
-    .header nav ul {
+    .header .nav ul {
       display: inline-block; }
-      .header nav ul li {
+      .header .nav ul li {
         display: inline-block;
         margin-right: 50px; }
-        .header nav ul li:first-of-type {
+        .header .nav ul li:first-of-type {
           margin-left: 50px; }
-        .header nav ul li:last-of-type {
+        .header .nav ul li:last-of-type {
           margin-right: 0; }
-          .header nav ul li:last-of-type a {
+          .header .nav ul li:last-of-type a {
             color: #531AFA;
             text-decoration: none;
             font-weight: bold;
             font-family: "Montserrat Light"; }
-        .header nav ul li a {
+        .header .nav ul li a {
           color: #444444;
           text-decoration: none;
           font-family: "Montserrat Light"; }
+
+.header-mobile {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: none; }
+  .header-mobile {
+    display: block;
+    width: 100vw;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: fixed;
+    z-index: 50;
+    background-color: #FFFFFF; }
+    .header-mobile .logo-mobile {
+      position: absolute;
+      display: block;
+      vertical-align: top;
+      text-align: left;
+      padding: 0 8%; }
+      .header-mobile .logo-mobile .logo-link-mobile {
+        position: relative;
+        padding-right: 20px;
+        color: #67DBC1;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold; }
+        .header-mobile .logo-mobile .logo-link-mobile::after {
+          content: '';
+          background: url("../../assets/img/logo.png") center center no-repeat;
+          background-size: contain;
+          width: 18px;
+          height: 17px;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%); }
+    .header-mobile .burger {
+      position: absolute;
+      display: block;
+      vertical-align: top;
+      right: 0px;
+      padding: 0 8%; }
+  .nav-mobile {
+    visibility: hidden;
+    background-color: #531afa;
+    width: 100vw;
+    height: 100vh; } }
 
 .nav ul {
   list-style: none; }
