@@ -1056,47 +1056,49 @@ textarea {
         display: none; }
       .main section#home .phone-main {
         display: none; }
-    .main section#product .container {
-      padding: 0;
-      font-size: 0;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-      .main section#product .container .content-left {
-        display: block;
-        width: 100%;
-        padding-top: 0; }
-        .main section#product .container .content-left img {
-          margin-top: 20px;
+    .main section#product {
+      margin-top: 20px; }
+      .main section#product .container {
+        padding: 0;
+        font-size: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+        .main section#product .container .content-left {
           display: block;
           width: 100%;
-          background: #67DBC1; }
-      .main section#product .container .content-right {
-        display: block;
-        width: 100%;
-        vertical-align: top;
-        padding: 75px 8% 0; }
-        .main section#product .container .content-right .title {
-          position: relative;
-          font-size: 38px;
-          line-height: 60px;
-          margin-bottom: 50px; }
-        .main section#product .container .content-right .ear {
-          position: absolute;
-          top: -50px;
-          left: 0px;
-          width: 60px; }
-        .main section#product .container .content-right .infos .info {
-          padding: 0 20px; }
-          .main section#product .container .content-right .infos .info .info-title {
-            font-size: 24px; }
-          .main section#product .container .content-right .infos .info .description {
-            font-size: 17px; }
-    .main section#product .video-conf {
-      display: none; }
+          padding-top: 0; }
+          .main section#product .container .content-left img {
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+            background: #67DBC1; }
+        .main section#product .container .content-right {
+          display: block;
+          width: 100%;
+          vertical-align: top;
+          padding: 125px 8% 0; }
+          .main section#product .container .content-right .title {
+            position: relative;
+            font-size: 38px;
+            line-height: 60px;
+            margin-bottom: 50px; }
+          .main section#product .container .content-right .ear {
+            position: absolute;
+            top: -50px;
+            left: 0px;
+            width: 60px; }
+          .main section#product .container .content-right .infos .info {
+            padding: 0 20px; }
+            .main section#product .container .content-right .infos .info .info-title {
+              font-size: 24px; }
+            .main section#product .container .content-right .infos .info .description {
+              font-size: 17px; }
+      .main section#product .video-conf {
+        display: none; }
     .main section#value {
-      margin-top: 40px; }
+      margin-top: 100px; }
       .main section#value .container .title {
         padding-top: 40px;
         font-size: 38px;
@@ -1143,7 +1145,7 @@ textarea {
           position: relative;
           top: -2px; }
     .main section#testimony {
-      margin-top: 60px; }
+      margin-top: 100px; }
       .main section#testimony .container .title {
         text-align: left; }
         .main section#testimony .container .title .stethoscope {
@@ -1160,7 +1162,7 @@ textarea {
       .main section#testimony .fauteuil {
         display: none; }
     .main section#doctors {
-      margin-top: 80px; }
+      margin-top: 140px; }
       .main section#doctors .container .block-text .title {
         font-size: 38px;
         line-height: 60px;
