@@ -722,6 +722,13 @@ textarea {
           border-left: 4px solid #531AFA; }
         .main section#product .container .content-right .infos .info:nth-child(3) {
           border-left: 4px solid #FFB2E7; }
+      .main section#product .container .content-right .description {
+        margin-top: 20px;
+        color: #444444;
+        font-size: 14px; }
+        .main section#product .container .content-right .description .cnil-btn {
+          color: #67DBC1;
+          text-decoration: underline; }
   .main section#product .video-conf {
     position: absolute;
     width: 20vw;
@@ -1064,7 +1071,7 @@ textarea {
       .main section#value .container .mal-tete {
         position: absolute;
         top: -25px;
-        left: 60px;
+        left: 8%;
         width: 60px; }
       .main section#value .container .info-list {
         margin-top: 30px; }
@@ -1109,7 +1116,7 @@ textarea {
         .main section#testimony .container .title .stethoscope {
           position: absolute;
           top: -60px;
-          left: 40px;
+          left: 8%;
           width: 60px; }
       .main section#testimony .frise {
         margin-top: 20px;
@@ -1128,7 +1135,7 @@ textarea {
       .main section#doctors .container .block-text .caduce {
         position: absolute;
         top: -60px;
-        left: 40px;
+        left: 8%;
         width: 60px; }
       .main section#doctors .container .block-text .block-container {
         font-size: 0;
