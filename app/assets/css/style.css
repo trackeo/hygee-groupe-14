@@ -771,12 +771,15 @@ textarea {
         height: 59px; }
   .main section#slider {
     padding: 120px 0; }
+    .main section#slider .slide-content {
+      max-width: 870px; }
     .main section#slider .title {
       color: #531AFA;
       font-size: 38px;
       font-weight: 900;
       line-height: 60px;
       margin: 0 auto;
+      margin-bottom: 20px;
       text-align: center; }
     .main section#slider .wrapper-slides .slide {
       display: block;
@@ -869,6 +872,8 @@ textarea {
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
       z-index: -1; }
+    .main section#slider .slick-disabled {
+      opacity: 0.5; }
     @media screen and (max-width: 724px) {
       .main section#slider .slick-prev, .main section#slider .slick-next {
         top: 100%; }

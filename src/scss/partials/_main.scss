@@ -308,12 +308,16 @@
     }
     &#slider {
       padding: 120px 0;
+      .slide-content {
+        max-width: 870px;
+      }
       .title{
         color: $blue;
         font-size: 38px;
         font-weight: 900;
         line-height: 60px;
         margin: 0 auto;
+        margin-bottom: 20px;
         text-align: center;
       }
       .wrapper-slides {
@@ -417,7 +421,9 @@
         transform: rotate(45deg);
         z-index: -1;
       }
-
+      .slick-disabled {
+        opacity: 0.5;
+      }
       @media screen and (max-width: 724px) {
         .slick-prev, .slick-next {
           top: 100%;
