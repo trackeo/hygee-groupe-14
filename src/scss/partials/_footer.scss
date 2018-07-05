@@ -92,19 +92,22 @@
 
     .footer-content {
       padding: 0 8%;
-      height: 90px;
+      height: auto;
       display: flex;
       align-items: center;
 
       .container{
         width: 100%;
-
+        margin-top: 20px;
         .logo {
           position: absolute;
-          top: 50%;
-          font-size: 40px;
-          left: 45%;
-          transform: translateY(-50%);
+          font-size: 30px;
+          display: block;
+          transform: none;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%);
+          align-self: center;
           .logo-link {
             position: relative;
             padding-right: 20px;
@@ -112,7 +115,6 @@
             display: inline-block;
             text-decoration: none;
             font-weight: bold;
-
             &::after {
               content: '';
               background: url('../../assets/img/logo-white.png') center center no-repeat;
@@ -128,16 +130,17 @@
         }
 
         .socials {
+          margin-top: 60px;
           text-align: center;
           .social {
             display: inline-flex;
-            width: 35px;
-            height: 35px;
+            width: 60px;
+            height: 60px;
             justify-content: center;
             text-align: center;
             align-items: center;
             img {
-              width: 60%;
+              width: 80%;
               display: block;
               margin: 0 auto;
             }

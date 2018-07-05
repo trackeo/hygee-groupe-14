@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941bb20e-00ab-49f2-9e2d-1c5c22d7d21f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/home-phone.png" afterPath="$PROJECT_DIR$/app/assets/img/home-phone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/style.css" afterPath="$PROJECT_DIR$/app/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/style.min.css" afterPath="$PROJECT_DIR$/app/assets/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/assets/js/scripts.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/scroll.min.js" afterPath="$PROJECT_DIR$/app/assets/js/scroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_main.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_main.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +22,40 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/partials/_main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="796" column="0" lean-forward="true" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#10725#0" expanded="false" />
+                <element signature="e#18#10723#0" expanded="false" />
+                <element signature="e#99#571#0" expanded="false" />
+                <element signature="e#584#1906#0" expanded="false" />
+                <element signature="e#1922#3414#0" expanded="false" />
+                <element signature="e#3428#5891#0" expanded="false" />
+                <element signature="e#5909#9163#0" expanded="false" />
+                <element signature="e#8649#8680#0" expanded="false" />
+                <element signature="e#8724#8928#0" expanded="false" />
+                <element signature="e#8942#9043#0" expanded="false" />
+                <element signature="e#9060#9157#0" expanded="false" />
+                <element signature="e#9179#9858#0" expanded="false" />
+                <element signature="e#9875#10719#0" expanded="false" />
+                <element signature="e#10179#10480#0" expanded="false" />
+                <element signature="e#10494#10594#0" expanded="false" />
+                <element signature="e#10615#10713#0" expanded="false" />
+                <element signature="e#10769#10831#0" expanded="false" />
+                <element signature="e#10875#17590#0" expanded="false" />
+                <element signature="e#15246#15738#0" expanded="false" />
+                <element signature="e#15756#16535#0" expanded="false" />
+                <element signature="e#16554#17578#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -66,6 +105,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
@@ -95,6 +135,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,18 +318,19 @@
       <workItem from="1530716143205" duration="261000" />
       <workItem from="1530716468019" duration="5656000" />
       <workItem from="1530790086128" duration="4197000" />
-      <workItem from="1530800314718" duration="330000" />
+      <workItem from="1530800314718" duration="1104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10463000" />
+    <option name="totallyTimeSpent" value="11237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <frame x="-1" y="22" width="1440" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12875536" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12875536" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -296,6 +391,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="384" column="7" lean-forward="true" selection-start-line="384" selection-start-column="7" selection-end-line="384" selection-end-column="7" />
+          <folding>
+            <element signature="e#6#10725#0" expanded="false" />
+            <element signature="e#18#10723#0" expanded="false" />
+            <element signature="e#99#571#0" expanded="false" />
+            <element signature="e#584#1906#0" expanded="false" />
+            <element signature="e#1922#3414#0" expanded="false" />
+            <element signature="e#3428#5891#0" expanded="false" />
+            <element signature="e#5909#9163#0" expanded="false" />
+            <element signature="e#8649#8680#0" expanded="false" />
+            <element signature="e#8724#8928#0" expanded="false" />
+            <element signature="e#8942#9043#0" expanded="false" />
+            <element signature="e#9060#9157#0" expanded="false" />
+            <element signature="e#9179#9858#0" expanded="false" />
+            <element signature="e#9875#10719#0" expanded="false" />
+            <element signature="e#10179#10480#0" expanded="false" />
+            <element signature="e#10494#10594#0" expanded="false" />
+            <element signature="e#10615#10713#0" expanded="false" />
+            <element signature="e#10769#10831#0" expanded="false" />
+            <element signature="e#10875#17590#0" expanded="false" />
+            <element signature="e#15246#15738#0" expanded="false" />
+            <element signature="e#15756#16535#0" expanded="false" />
+            <element signature="e#16554#17578#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,17 +597,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="483" column="1" lean-forward="true" selection-start-line="483" selection-start-column="1" selection-end-line="483" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="796" column="0" lean-forward="true" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#10725#0" expanded="false" />
+            <element signature="e#18#10723#0" expanded="false" />
+            <element signature="e#99#571#0" expanded="false" />
+            <element signature="e#584#1906#0" expanded="false" />
+            <element signature="e#1922#3414#0" expanded="false" />
+            <element signature="e#3428#5891#0" expanded="false" />
+            <element signature="e#5909#9163#0" expanded="false" />
+            <element signature="e#8649#8680#0" expanded="false" />
+            <element signature="e#8724#8928#0" expanded="false" />
+            <element signature="e#8942#9043#0" expanded="false" />
+            <element signature="e#9060#9157#0" expanded="false" />
+            <element signature="e#9179#9858#0" expanded="false" />
+            <element signature="e#9875#10719#0" expanded="false" />
+            <element signature="e#10179#10480#0" expanded="false" />
+            <element signature="e#10494#10594#0" expanded="false" />
+            <element signature="e#10615#10713#0" expanded="false" />
+            <element signature="e#10769#10831#0" expanded="false" />
+            <element signature="e#10875#17590#0" expanded="false" />
+            <element signature="e#15246#15738#0" expanded="false" />
+            <element signature="e#15756#16535#0" expanded="false" />
+            <element signature="e#16554#17578#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
