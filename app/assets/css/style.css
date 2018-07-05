@@ -769,6 +769,15 @@ textarea {
       .main section#download .download-container .google {
         width: 195px;
         height: 59px; }
+  .main section#slider {
+    padding: 120px 0; }
+    .main section#slider .title {
+      color: #531AFA;
+      font-size: 38px;
+      font-weight: 900;
+      line-height: 60px;
+      margin: 0 auto;
+      text-align: center; }
 
 .footer .urgence {
   background-color: #FFB2E7;
