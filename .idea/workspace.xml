@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941bb20e-00ab-49f2-9e2d-1c5c22d7d21f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/caduce.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/couple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/discussion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/ear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/fauteuil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/frise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/home-phone-old.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/ico-doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/main-blanche.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/main-bleu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/mal-tete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/phone-main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/stethoscope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/video-conf.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/partials/_slider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/android-chrome-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/android-chrome-512x512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/mstile-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/favicons/safari-pinned-tab.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/android-chrome-192x192.png" afterPath="$PROJECT_DIR$/app/assets/img/favicons/android-chrome-192x192.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/apple-touch-icon.png" afterPath="$PROJECT_DIR$/app/assets/img/favicons/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/favicon-16x16.png" afterPath="$PROJECT_DIR$/app/assets/img/favicons/favicon-16x16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/favicon-32x32.png" afterPath="$PROJECT_DIR$/app/assets/img/favicons/favicon-32x32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/favicon.ico" afterPath="$PROJECT_DIR$/app/assets/img/favicons/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/mstile-150x150.png" afterPath="$PROJECT_DIR$/app/assets/img/favicons/mstile-150x150.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/home-phone.png" afterPath="$PROJECT_DIR$/app/assets/img/home-phone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/style.css" afterPath="$PROJECT_DIR$/app/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/style.min.css" afterPath="$PROJECT_DIR$/app/assets/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/favicons/safari-pinned-tab.svg" afterPath="$PROJECT_DIR$/app/assets/img/favicons/safari-pinned-tab.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/assets/js/scripts.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/scroll.min.js" afterPath="$PROJECT_DIR$/app/assets/js/scroll.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_main.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/style.scss" afterPath="$PROJECT_DIR$/src/scss/style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,50 +36,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2685">
-              <caret line="179" column="68" lean-forward="false" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="263" column="16" lean-forward="false" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
+            <state relative-caret-position="410">
+              <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
               <folding>
-                <element signature="e#99#571#0" expanded="false" />
-                <element signature="e#584#2019#0" expanded="false" />
-                <element signature="e#2035#3527#0" expanded="false" />
-                <element signature="e#3541#6004#0" expanded="false" />
-                <element signature="e#9292#9971#0" expanded="false" />
-                <element signature="e#9988#10599#0" expanded="false" />
-                <element signature="e#10731#11297#0" expanded="false" />
-                <element signature="e#11312#12227#0" expanded="false" />
-                <element signature="e#12245#13233#0" expanded="false" />
-                <element signature="e#13249#14971#0" expanded="false" />
-                <element signature="e#14991#15092#0" expanded="false" />
-                <element signature="e#15110#15710#0" expanded="false" />
-                <element signature="e#15729#16709#0" expanded="false" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_footer.scss">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/partials/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+            <state relative-caret-position="2925">
+              <caret line="259" column="16" lean-forward="false" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
               <folding>
-                <element signature="e#21#242#0" expanded="false" />
-                <element signature="e#262#1566#0" expanded="false" />
-                <element signature="e#1209#1556#0" expanded="false" />
-                <element signature="e#2785#3162#0" expanded="false" />
+                <element signature="e#99#571#0" expanded="false" />
+                <element signature="e#17022#18163#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -114,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/scss/modules/_misc.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/src/scss/partials/_main.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -230,6 +212,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hygee-groupe-14" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -247,11 +269,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,19 +381,19 @@
       <workItem from="1530716092808" duration="19000" />
       <workItem from="1530716143205" duration="261000" />
       <workItem from="1530716468019" duration="5656000" />
-      <workItem from="1530790086128" duration="2505000" />
+      <workItem from="1530790086128" duration="3218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8441000" />
+    <option name="totallyTimeSpent" value="9154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4155937" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4155937" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -425,7 +447,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="344" column="0" lean-forward="false" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -435,18 +465,7 @@
           <caret line="384" column="7" lean-forward="true" selection-start-line="384" selection-start-column="7" selection-end-line="384" selection-end-column="7" />
           <folding>
             <element signature="e#99#571#0" expanded="false" />
-            <element signature="e#584#2019#0" expanded="false" />
-            <element signature="e#2035#3527#0" expanded="false" />
-            <element signature="e#3541#6004#0" expanded="false" />
-            <element signature="e#9292#9971#0" expanded="false" />
-            <element signature="e#9988#10599#0" expanded="false" />
-            <element signature="e#10731#11297#0" expanded="false" />
-            <element signature="e#11312#12227#0" expanded="false" />
-            <element signature="e#12245#13233#0" expanded="false" />
-            <element signature="e#13249#14971#0" expanded="false" />
-            <element signature="e#14991#15092#0" expanded="false" />
-            <element signature="e#15110#15710#0" expanded="false" />
-            <element signature="e#15729#16709#0" expanded="false" />
+            <element signature="e#17022#18163#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,37 +602,92 @@
             <element signature="e#21#242#0" expanded="false" />
             <element signature="e#262#1566#0" expanded="false" />
             <element signature="e#1209#1556#0" expanded="false" />
-            <element signature="e#2785#3162#0" expanded="false" />
+            <marker date="1530797094091" expanded="true" signature="1613:3212" ph="{...}" />
+            <marker date="1530797094091" expanded="true" signature="1625:3210" ph="{...}" />
+            <marker date="1530797094091" expanded="true" signature="1897:3205" ph="{...}" />
+            <marker date="1530797094091" expanded="true" signature="2005:3199" ph="{...}" />
+            <marker date="1530797094091" expanded="true" signature="2043:2105" ph="{...}" />
+            <marker date="1530797094091" expanded="false" signature="2843:3191" ph="{...}" />
+            <marker date="1530797094091" expanded="true" signature="2863:3181" ph="{...}" />
+            <marker date="1530797094091" expanded="true" signature="3068:3169" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2685">
-          <caret line="179" column="68" lean-forward="false" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="263" column="16" lean-forward="false" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
+        <state relative-caret-position="2925">
+          <caret line="259" column="16" lean-forward="false" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
           <folding>
             <element signature="e#99#571#0" expanded="false" />
-            <element signature="e#584#2019#0" expanded="false" />
-            <element signature="e#2035#3527#0" expanded="false" />
-            <element signature="e#3541#6004#0" expanded="false" />
-            <element signature="e#9292#9971#0" expanded="false" />
-            <element signature="e#9988#10599#0" expanded="false" />
-            <element signature="e#10731#11297#0" expanded="false" />
-            <element signature="e#11312#12227#0" expanded="false" />
-            <element signature="e#12245#13233#0" expanded="false" />
-            <element signature="e#13249#14971#0" expanded="false" />
-            <element signature="e#14991#15092#0" expanded="false" />
-            <element signature="e#15110#15710#0" expanded="false" />
-            <element signature="e#15729#16709#0" expanded="false" />
+            <element signature="e#17022#18163#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/mstile-150x150.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/safari-pinned-tab.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/browserconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/android-chrome-192x192.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/android-chrome-256x256.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicons/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
