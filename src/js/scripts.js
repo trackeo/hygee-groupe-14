@@ -5,6 +5,9 @@
   $(function () {
 
     var items = $('.js-items');
+    var menu = $('.burger');
+    var close = $('.close');
+    var choix = $('.close-menu');
 
     // items.onclick
 
@@ -12,6 +15,20 @@
        $(this).toggleClass('active');
       });
 
+      menu.click(function() {
+        var element = document.getElementById("menu");
+        element.classList.add("on");
+      });
+
+      close.click(function() {
+        var element = document.getElementById("menu");
+        element.classList.remove("on");
+      });
+
+      choix.click(function() {
+        var element = document.getElementById("menu");
+        element.classList.remove("on");
+      });
   });
 
 
