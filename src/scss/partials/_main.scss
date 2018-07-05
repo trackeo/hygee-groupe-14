@@ -712,7 +712,7 @@
             .stethoscope {
               position: absolute;
               top: -60px;
-              left: 40px;
+              left: 60px;
               width: 60px;
             }
           }
@@ -803,16 +803,16 @@
           display: block;
           margin: auto;
           bottom: -10vh;
-          width: 30vw;
+          width: 200px;
           left: 0;
         }
         .main-blanche {
           position: absolute;
           display: block;
           margin: auto;
-          top: 50px;
-          right: 25vw;
-          width: 30vw;
+          top: 10px;
+          right: 10vw;
+          width: 300px;
           transform: rotate(-45deg);
         }
       }
