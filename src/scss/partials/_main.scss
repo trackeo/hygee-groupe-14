@@ -316,6 +316,120 @@
         margin: 0 auto;
         text-align: center;
       }
+      .wrapper-slides {
+        .slide {
+          display: block;
+          margin: auto;
+          width: 15vw;
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+          padding: 20px;
+          /* margin-right: 40px; */
+          margin: 20px;
+          overflow: hidden;
+          min-height: 300px;
+          .wrapper-temoin {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            img{
+              height: 50%;
+            }
+            &::before{
+              position: absolute;
+              content: "";
+              width: 75px;
+              height: 75px;
+              top: -40px;
+              left: -40px;
+              background-color: red;
+              z-index: -1;
+              transform: rotate(-20deg);
+              background-color: #531afa;
+            }
+            .wrapper-nom {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              margin-left: 15px;
+              .nom {
+                font-weight: bold;
+              }
+            }
+          }
+          .temoignage {
+            font-size: 18px;
+            line-height: 34.2px;
+          }
+
+          .rating {
+            margin-top: 30px;
+            margin-bottom: 15px;
+          }
+
+        }
+      }
+      .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        content: "";
+        width: 40px;
+        height: 40px;
+        background-color: #67dbc1;
+        border: none;
+        cursor: pointer;
+      }
+
+      .slick-prev {
+        left: -40px;
+        z-index: 1;
+      }
+      .slick-next {
+        right: -40px;
+        z-index: 1;
+      }
+
+      .slick-prev::before {
+        position: absolute;
+        content: "";
+        width: 15px;
+        height: 15px;
+        top: 10px;
+        left: 14px;
+        border-bottom: 5px solid white;
+        border-left: 5px solid white;
+        background-color: #67dbc1;
+        transform: rotate(45deg);
+        color: white;
+        z-index: -1;
+      }
+      .slick-next::before {
+        position: absolute;
+        content: "";
+        width: 15px;
+        height: 15px;
+        top: 10px;
+        left: 7px;
+        border-top: 5px solid white;
+        border-right: 5px solid white;
+        background-color: #67dbc1;
+        color: white;
+        transform: rotate(45deg);
+        z-index: -1;
+      }
+
+      @media screen and (max-width: 724px) {
+        .slick-prev, .slick-next {
+          top: 100%;
+        }
+        .slick-prev {
+          z-index: 2;
+          left: 25%;
+        }
+        .slick-next {
+          right: 25%;
+        }
+      }
     }
   }
 }
