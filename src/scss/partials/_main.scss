@@ -239,6 +239,15 @@
     }
 
     &#testimony {
+      padding: 120px 0;
+      .title{
+        color: $blue;
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 60px;
+        margin: 0 auto;
+        text-align: center;
+      }
     }
 
     &#doctors {
@@ -306,15 +315,272 @@
         }
       }
     }
-    &#slider {
-      padding: 120px 0;
-      .title{
-        color: $blue;
-        font-size: 38px;
-        font-weight: 900;
-        line-height: 60px;
+  }
+}
+
+@media only screen and (max-width:1023px) {
+  .main {
+    section {
+      width: 100vw;
+      padding: 0;
+
+      .container {
+        max-width: 100%;
         margin: 0 auto;
-        text-align: center;
+        position: relative;
+        padding: 0 8%;
+        box-sizing: border-box;
+
+        .button-container {
+          display: block;
+          .button {
+            display: inline-block;
+            height: 50px;
+            background: $green;
+            padding: 0 10px;
+            text-decoration: none;
+
+            .label {
+              color: $white;
+              text-transform: uppercase;
+              line-height: 50px;
+              font-size: 17px;
+
+            }
+          }
+        }
+      }
+
+      &#home {
+        margin-top: 60px;
+        padding-bottom: 35px;
+
+        .home__block {
+          font-size: 0;
+          display: flex;
+          flex-direction: column;
+          .block-text {
+            display: inline-block;
+            width: 100%;
+            vertical-align: middle;
+            .title {
+              max-width: 100%;
+              text-align: left;
+
+              .img-referent {
+                &:after {
+                  content: none;
+                }
+              }
+            }
+            .subtitle {
+              text-align: left;
+            }
+            .button-container {
+              .button {
+                width: 100%;
+                text-align: center;
+
+              }
+            }
+          }
+          .img {
+            display: inline-block;
+            width: 50%;
+            vertical-align: middle;
+            margin: 15px auto;
+
+          }
+        }
+
+      }
+
+      &#product {
+        .container {
+          padding: 0;
+          font-size: 0;
+          display: flex;
+          flex-direction: column;
+          .content-left {
+            display: block;
+            width: 100%;
+            padding-top: 0;
+
+            img{
+              margin-top: 20px;
+              display: block;
+              width:100%;
+              background: $green;
+            }
+
+          }
+          .content-right {
+            display: block;
+            width: 100%;
+            vertical-align: top;
+            padding: 75px 8% 0;
+
+            .title{
+              font-size: 38px;
+              line-height: 60px;
+              margin-bottom: 50px;
+            }
+
+            .infos {
+
+              .info {
+                padding: 0 20px;
+                .info-title {
+                  font-size: 24px;
+                }
+                .description {
+                  font-size: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#value {
+        .container {
+          .title{
+            padding-top: 40px;
+            font-size: 38px;
+            line-height: 60px;
+          }
+          .info-list {
+            margin-top: 30px;
+
+            .info-item {
+              .item-header {
+                position: relative;
+                height: auto;
+                line-height: 70px;
+                padding: 0 50px 0 20px;
+                transition: all 350ms ease-in-out;
+
+                .item-title {
+                  font-size: 24px;
+                  line-height: 35px;
+                  padding: 20px 0;
+                }
+
+                &::after, &::before {
+                  bottom: 30px;
+                  top: inherit;
+                }
+              }
+              .item-content {
+
+                .description {
+
+                  padding: 20px;
+                  font-size: 17px;
+                  font-weight: 400;
+                  line-height: 28px;
+                  color: $dark;
+                }
+              }
+
+              &.active {
+                .item-header {
+                  box-shadow: 0px 3px 7px rgba(0,0,0,.2);
+                  &:after {
+                    transform: rotate(90deg);
+                  }
+                }
+                .item-content {
+                  height: 220px;
+                  &:last-child {
+                    border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+                  }
+
+                }
+              }
+
+              &:first-child {
+                position: relative;
+                top: 0;
+              }
+              &:nth-child(3) {
+                position: relative;
+                top: -2px;
+              }
+            }
+          }
+        }
+      }
+
+      &#testimony {
+        .container {
+          .title {
+            text-align: left;
+          }
+        }
+      }
+
+      &#doctors {
+        .container {
+
+          .block-text {
+
+            .title{
+              font-size: 38px;
+              line-height: 60px;
+              margin-bottom: 30px;
+            }
+            .block-container {
+              font-size: 0;
+              display: flex;
+              flex-direction: column;
+              .description {
+                display: inline-block;
+                font-size: 17px;
+              }
+              .img {
+                display: block;
+                width: 300px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+
+      &#download {
+        background: $green;
+        padding: 60px 0;
+        .title{
+          font-size: 38px;
+          line-height: 60px;
+          margin: 0 auto;
+          text-align: center;
+        }
+
+        .download-container {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          margin-top: 40px;
+
+          a {
+            text-decoration: none;
+            display: inline-block;
+          }
+
+          .apple {
+            width: 165px;
+            height: 57px;
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+          .google {
+            width: 195px;
+            height: 59px;
+          }
+        }
       }
     }
   }
