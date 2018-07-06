@@ -548,7 +548,7 @@ textarea {
         .header .nav ul li:last-of-type {
           margin-right: 0; }
           .header .nav ul li:last-of-type a {
-            color: #531AFA;
+            color: white;
             text-decoration: none;
             font-weight: bold;
             font-family: "Montserrat Light"; }
@@ -556,6 +556,14 @@ textarea {
           color: #444444;
           text-decoration: none;
           font-family: "Montserrat Light"; }
+        .header .nav ul li .doctor {
+          padding: 10px;
+          background-color: #531afa;
+          color: white; }
+        .header .nav ul li .download {
+          padding: 10px;
+          background-color: #67dbc1;
+          color: white; }
 
 .header-mobile {
   display: none; }
@@ -628,6 +636,10 @@ textarea {
       text-decoration: none;
       font-weight: bold;
       font-size: 20px; }
+      .logo-mobile-open .logo-link-mobile .logo-menu {
+        position: relative;
+        width: 50px;
+        left: 0px; }
   .nav-mobile {
     position: relative;
     left: 100%;
@@ -710,6 +722,11 @@ textarea {
     .main section#home .phone-main {
       position: absolute;
       width: 30vw;
+      right: 0vw;
+      top: 0vh; }
+    .main section#home .dessus {
+      position: absolute;
+      width: 27vw;
       right: 0vw;
       top: 0vh; }
   .main section#product .container {
