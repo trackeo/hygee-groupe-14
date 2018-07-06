@@ -531,17 +531,10 @@ textarea {
       display: inline-block;
       text-decoration: none;
       font-weight: bold; }
-      .header .logo .logo-link::after {
-        content: '';
-        background: url("../../assets/img/logo.png") center center no-repeat;
-        background-size: contain;
-        width: 18px;
-        height: 17px;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
+      .header .logo .logo-link .logo-app {
+        position: relative;
+        width: 50px;
+        left: -70px; }
   .header .nav {
     display: inline-block;
     vertical-align: top; }
@@ -593,6 +586,10 @@ textarea {
         text-decoration: none;
         font-weight: bold;
         font-size: 20px; }
+        .header-mobile .logo-mobile .logo-link-mobile .logo-app {
+          position: relative;
+          width: 50px;
+          left: 0px; }
     .header-mobile .burger {
       position: absolute;
       display: block;
@@ -1125,7 +1122,7 @@ textarea {
             top: inherit; }
         .main section#value .container .info-list .info-item .item-content .description {
           padding: 20px;
-          font-size: 17px;
+          font-size: 15px;
           font-weight: 400;
           line-height: 28px;
           color: #444444; }
