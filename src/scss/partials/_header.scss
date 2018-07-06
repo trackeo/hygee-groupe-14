@@ -18,17 +18,10 @@
       display: inline-block;
       text-decoration: none;
       font-weight: bold;
-
-      &::after {
-        content: '';
-        background: url('../../assets/img/logo.png') center center no-repeat;
-        background-size: contain;
-        width: 18px;
-        height: 17px;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
+      .logo-app{
+        position: relative;
+        width: 50px;
+        left: -70px;
       }
     }
   }
@@ -93,6 +86,11 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 20px;
+        .logo-app{
+          position: relative;
+          width: 50px;
+          left: 0px;
+        }
       }
     }
     .burger {
