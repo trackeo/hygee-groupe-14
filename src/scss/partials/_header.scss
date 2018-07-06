@@ -39,7 +39,7 @@
         &:last-of-type {
           margin-right: 0;
           a {
-            color: $blue;
+            color: white;
             text-decoration: none;
             font-weight: bold;
             font-family: $montserrat-light;
@@ -49,6 +49,16 @@
           color: $dark;
           text-decoration: none;
           font-family: $montserrat-light;
+        }
+        .doctor {
+          padding: 10px;
+          background-color: #531afa;
+          color: white;
+        }
+        .download {
+          padding: 10px;
+          background-color: #67dbc1;
+          color: white;
         }
       }
     }
@@ -137,6 +147,11 @@
       text-decoration: none;
       font-weight: bold;
       font-size: 20px;
+      .logo-menu{
+        position: relative;
+        width: 50px;
+        left: 0px;
+      }
     }
   }
   .nav-mobile {
